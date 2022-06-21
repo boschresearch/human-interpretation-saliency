@@ -49,21 +49,19 @@ The user study data in the folder [human_ratings](human_ratings/) is licensed un
 ## Citation
 If you use our data or scripts, please cite [our paper](https://arxiv.org/abs/2201.11569):
 ```
-@article{DBLP:journals/corr/abs-2201-11569,
-  author    = {Hendrik Schuff and
-               Alon Jacovi and
-               Heike Adel and
-               Yoav Goldberg and
-               Ngoc Thang Vu},
-  title     = {Human Interpretation of Saliency-based Explanation Over Text},
-  journal   = {CoRR},
-  volume    = {abs/2201.11569},
-  year      = {2022},
-  url       = {https://arxiv.org/abs/2201.11569},
-  eprinttype = {arXiv},
-  eprint    = {2201.11569},
-  timestamp = {Tue, 01 Feb 2022 14:59:01 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2201-11569.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{10.1145/3531146.3533127,
+author = {Schuff, Hendrik and Jacovi, Alon and Adel, Heike and Goldberg, Yoav and Vu, Ngoc Thang},
+title = {Human Interpretation of Saliency-Based Explanation Over Text},
+year = {2022},
+isbn = {9781450393522},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3531146.3533127},
+doi = {10.1145/3531146.3533127},
+pages = {611–636},
+numpages = {26},
+keywords = {feature attribution, saliency, cognitive bias, interpretability, text, generalized additive mixed model, explainability, human, perception},
+location = {Seoul, Republic of Korea},
+series = {FAccT '22}
 }
 ```
