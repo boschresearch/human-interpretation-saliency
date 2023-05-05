@@ -1,6 +1,8 @@
 # Human Saliency Interpretation
 This repository contains the collected study data and R analysis code of our FAccT 2022 paper [Human Interpretation of Saliency-based Explanation Over Text](https://arxiv.org/abs/2201.11569).
 
+**In addition, we will soon provide the study data and analysis code of our Findings of ACL 2023 paper [Neighboring Words Affect Human Interpretation of Saliency Explanations](https://arxiv.org/abs/2305.02679).**
+
 ## Human Ratings
 We provide the human ratings and the respective word and sentence features of the three experiments described in our paper in [human_ratings](human_ratings/).
 The ratings regarding the first (English sentiment, EN), second (German fact checking, DE) and third (English sentiment
@@ -47,21 +49,30 @@ See the [LICENSE](LICENSE) file for details.
 
 The user study data in the folder [human_ratings](human_ratings/) is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) (CC-BY-4.0).
 ## Citation
-If you use our data or scripts, please cite [our paper](https://arxiv.org/abs/2201.11569):
+If you use our data or scripts, please cite [our FAccT'22 paper](https://arxiv.org/abs/2201.11569) or [our Findings of ACL'23 paper](https://arxiv.org/abs/2305.02679) respectively:
 ```
 @inproceedings{10.1145/3531146.3533127,
-author = {Schuff, Hendrik and Jacovi, Alon and Adel, Heike and Goldberg, Yoav and Vu, Ngoc Thang},
-title = {Human Interpretation of Saliency-Based Explanation Over Text},
-year = {2022},
-isbn = {9781450393522},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3531146.3533127},
-doi = {10.1145/3531146.3533127},
-pages = {611–636},
-numpages = {26},
-keywords = {feature attribution, saliency, cognitive bias, interpretability, text, generalized additive mixed model, explainability, human, perception},
-location = {Seoul, Republic of Korea},
-series = {FAccT '22}
+      author = {Schuff, Hendrik and Jacovi, Alon and Adel, Heike and Goldberg, Yoav and Vu, Ngoc Thang},
+      title = {Human Interpretation of Saliency-Based Explanation Over Text},
+      year = {2022},
+      isbn = {9781450393522},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      url = {https://doi.org/10.1145/3531146.3533127},
+      doi = {10.1145/3531146.3533127},
+      pages = {611–636},
+      numpages = {26},
+      keywords = {feature attribution, saliency, cognitive bias, interpretability, text, generalized additive mixed model, explainability, human, perception},
+      location = {Seoul, Republic of Korea},
+      series = {FAccT '22}
+}
+
+@misc{jacovi2023neighboring,
+      title={Neighboring Words Affect Human Interpretation of Saliency Explanations}, 
+      author={Alon Jacovi and Hendrik Schuff and Heike Adel and Ngoc Thang Vu and Yoav Goldberg},
+      year={2023},
+      eprint={2305.02679},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
